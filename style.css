@@ -1,0 +1,60 @@
+nav {
+    border-color: blueviolet;
+}
+
+#contenaire {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+ul {
+    list-style: none;
+}
+
+.box1 {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.periodes,
+.parcours,
+{
+    margin: auto;
+}
+
+.Comp,
+.box1,
+.box2,
+.box3,
+.periodes,
+.parcours,
+.Exp {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Infos {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 400px;
+}
+
+.localisation {
+    border: 2px solid black;
+}
+
+#statue {
+    border: 2px solid violet;
+    display: flex;
+    margin-left: 455px;
+    margin-right: 455px;
+}
